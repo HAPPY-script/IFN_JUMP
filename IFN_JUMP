@@ -1,6 +1,7 @@
 local IFNJumpScreen = Instance.new("ScreenGui")
 IFNJumpScreen.Name = "IFNJumpScreen"
 IFNJumpScreen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+IFNJumpScreen.ResetOnSpawn = false
 IFNJumpScreen.DisplayOrder = 5
 IFNJumpScreen.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
